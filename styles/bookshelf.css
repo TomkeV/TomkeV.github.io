@@ -46,3 +46,17 @@
         justify-self: end;
     }
 }
+
+.chapter-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chapter-nav-link {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    
+}

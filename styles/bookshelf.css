@@ -1,7 +1,7 @@
 .bookshelf {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .book {
@@ -9,8 +9,40 @@
     flex-direction: column;
 
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 
     .cover {
         width: 100%;
+        max-height: 431px;
+    }
+
+    
+    
+}
+
+.bookheadline {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+
+    .icon-back {
+        width:  1.5rem;
+        height:  1.5rem;
+        cursor: pointer;
+    }
+
+    .a {
+        text-decoration: none;
+    }
+}
+
+.buchsteckbrief {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .steckbrief-cover {
+        justify-self: end;
     }
 }

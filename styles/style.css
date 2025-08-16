@@ -1,6 +1,5 @@
 :root {
     height: 100%;
-    
 }
 
 .body {
@@ -12,6 +11,15 @@
     justify-content: space-between;
 
     margin: 0;
+}
+
+.queer {
+    background-color: rgba(255, 242, 182, 0.8);
+}
+
+.fanfiction {
+    background-color: rgba(7, 7, 80, 0.329);
+    color: rgb(255, 215, 84);
 }
 
 .content-container {

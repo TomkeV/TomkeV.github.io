@@ -10,6 +10,7 @@
 
 .footer {
     height: 5rem;
+    margin-top: 1rem;
 }
 
 .footer-text {
@@ -64,3 +65,12 @@
 
 }
 
+
+/************** Fanfiction **************/
+.fanfiction-header {
+    background: linear-gradient(to bottom, #011135, #234fc7);
+}
+
+.fanfiction-footer {
+    background: linear-gradient(to bottom, #234fc7, #011135);
+}

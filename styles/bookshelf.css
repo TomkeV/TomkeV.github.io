@@ -1,0 +1,16 @@
+.bookshelf {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+
+    cursor: pointer;
+
+    .cover {
+        width: 100%;
+    }
+}

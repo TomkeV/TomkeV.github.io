@@ -1,0 +1,66 @@
+.header {
+    height: 5rem;
+    align-content: center;
+}
+
+.header-text {
+    text-align: center;
+    color: white;
+}
+
+.footer {
+    height: 5rem;
+}
+
+.footer-text {
+    text-align: center;
+    color: white;
+}
+
+/************** Main **************/
+.main-header {
+    background-color: orangered;
+}
+
+.main-footer {
+    background-color: orangered;
+}
+
+
+/************** Autismus (er)leben **************/
+.autism-header {
+    background: linear-gradient(to bottom, #4B0082, #974ed3);
+}
+
+.autism-footer {
+    background: linear-gradient(to bottom, #974ed3, #4B0082);
+}
+
+/************** Queer **************/
+.queer-header {
+    background: linear-gradient(to bottom right, 
+    rgba(255, 0, 0, 0.8),   /* Rot mit 50% Transparenz */
+    rgba(255, 127, 0, 0.8), /* Orange mit 50% Transparenz */
+    rgba(255, 255, 0, 0.8), /* Gelb mit 50% Transparenz */
+    rgba(0, 255, 0, 0.8),   /* Grün mit 50% Transparenz */
+    rgba(0, 0, 255, 0.8),   /* Blau mit 50% Transparenz */
+    rgba(75, 0, 130, 0.8),  /* Indigo mit 50% Transparenz */
+    rgba(148, 0, 211, 0.8)   /* Violett mit 50% Transparenz */
+);
+
+}
+
+.queer-footer {
+    background: linear-gradient(to bottom right, 
+    rgba(148, 0, 211, 0.8), /* Violett mit 50% Transparenz */
+    rgba(75, 0, 130, 0.8),  /* Indigo mit 50% Transparenz */
+    rgba(0, 0, 255, 0.8),   /* Blau mit 50% Transparenz */
+    rgba(0, 255, 0, 0.8),   /* Grün mit 50% Transparenz */
+    rgba(255, 255, 0, 0.8), /* Gelb mit 50% Transparenz */
+    rgba(255, 127, 0, 0.8), /* Orange mit 50% Transparenz */
+    rgba(255, 0, 0, 0.8)    /* Rot mit 50% Transparenz */
+    );
+
+
+}
+

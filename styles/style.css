@@ -1,0 +1,33 @@
+:root {
+    height: 100%;
+    
+}
+
+.body {
+    min-height: 100%;
+    /*background-color: aquamarine;*/
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin: 0;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-self: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1rem;
+
+    list-style-type: none;
+    /* Breite der Items festlegen */
+    /* keine Auflistungszeichen */
+}

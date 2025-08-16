@@ -1,48 +1,43 @@
 <!doctype html>
 <html lang="de">
 
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width = device-width, initial-scale = 1.0" />  
-	<title>Beispielseite</title>
-	<meta name="description" content="Beschreibungstext">
-	<link rel="shortcut icon" href="favicon.ico" />
-	<link rel="stylesheet" href="style.css">
-</head>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width = device-width, initial-scale = 1.0" />  
+		<title>Beispielseite</title>
+		<meta name="description" content="Beschreibungstext">
+		<link rel="shortcut icon" href="favicon.ico" />
+		<link rel="stylesheet" href="styles/style.css">
+		<link rel="stylesheet" href="styles/header_footer.css">
+	</head>
 
-<body>
+	<body class="body">
+		<div>
+		<!-- header -->
+			<header class="header main-header">
+				<p class="header-text">Kopfzeile</p>
+			</header>
+		
+		<!-- navigation -->
+			<nav>
+				<ul class="navbar">
+				<li><a href="autismus/autismus.html">Autismus (er)leben</a></li>
+				<li><a href="queer/queer.html">Queere Kurzgeschichten</a></li>
+				<li><a href="#">Kontakt</a></li>
+				</ul>	
+			</nav>
+		</div>
 
-<!-- header -->
-<header>
-	Kopfbereich
-</header>
-   
-<!-- navigation -->
-<nav>
-	<ul>
-	<li><a href="#">Startseite</a></li>
-	<li><a href="#">Blog</a></li>
-	<li><a href="#">Kontakt</a></li>
-	</ul>	
-</nav>
-     
-<!-- article -->     
-<article>
-	<h1>Überschrift</h1>
-	<p class="test">Lorem ipsum dolor sit amet, consetetur elitr sadipscing.</p>	
-</article>
-          
-<!-- aside -->
-<aside>
-	Seitenleiste
-</aside>
-     
-     
-<!-- footer -->
-<footer>
-	Fußzeile
-</footer>
-     
+		<div class="content-container">
+			<p>Titel</p>
+			<p>Content</p>
+		</div>
+		
+	<!-- footer -->
+		<footer class="footer main-footer" >
+			<p class="footer-text">Fußzeile</p>
+		</footer>
 
-</body>
+
+	</body>
 </html>

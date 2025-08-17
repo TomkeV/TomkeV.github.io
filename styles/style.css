@@ -3,11 +3,12 @@
 }
 
 a {
-    text-decoration: none; /* Entfernt die Unterstreichung */
+    text-decoration: none;
     color: inherit;
 }
+
 a:hover {
-    text-shadow: 1px 1px 1px cyan; /* ToDo! */
+    text-shadow: 0.5px 0.5px 0.5px darkorchid;
 }
 
 .body {
@@ -15,7 +16,6 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
     margin: 0;
 }
 
@@ -46,8 +46,10 @@ a:hover {
 }
 
 .fanfiction {
-    background-color: rgba(7, 7, 80, 0.329);
-    color: rgb(255, 215, 84);
+        background: linear-gradient(to bottom right, 
+        rgba(255, 212, 69, 0.8),
+        rgba(35, 79, 199, 0.8)
+    );
 }
 
 .content-container {

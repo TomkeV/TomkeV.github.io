@@ -23,8 +23,7 @@ a:hover {
     overflow: hidden;
 }
 
-.queer {
-    
+.queer {    
     background: linear-gradient(to bottom, 
         rgba(255, 0, 0, 0.2),   /* Rot mit 50% Transparenz */
         rgba(255, 127, 0, 0.2), /* Orange mit 50% Transparenz */
@@ -34,6 +33,15 @@ a:hover {
         rgba(75, 0, 130, 0.2),  /* Indigo mit 50% Transparenz */
         rgba(148, 0, 211, 0.2)   /* Violett mit 50% Transparenz */
     );
+    background-attachment: fixed;
+}
+
+.autism {
+    background: linear-gradient(to bottom right, 
+        rgba(156, 0, 177, 0.4),
+        rgba(29, 2, 48, 0.8)
+    );
+    background-color: rgba(0,0,0, 0.2);
     background-attachment: fixed;
 }
 

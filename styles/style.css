@@ -20,7 +20,10 @@ a:hover {
 }
 
 .fit-page {
-    overflow: hidden;
+    @media screen and (min-width: 1024px) {
+            overflow: hidden;
+
+    }
 }
 
 .queer {    
@@ -39,26 +42,38 @@ a:hover {
 .autism {
     background: linear-gradient(to bottom right, 
         rgba(156, 0, 177, 0.4),
-        rgba(29, 2, 48, 0.8)
+        rgba(10, 9, 90, 0.897)
     );
     background-color: rgba(0,0,0, 0.2);
     background-attachment: fixed;
 }
 
 .fanfiction {
-        background: linear-gradient(to bottom right, 
+    background: linear-gradient(to bottom right, 
         rgba(255, 212, 69, 0.8),
         rgba(35, 79, 199, 0.8)
     );
+    background-attachment: fixed;
 }
 
 .content-container {
     display: flex;
     flex-direction: column;
-    width: 70%;
     align-self: center;
-
     flex-grow: 1;
+
+    @media screen and (min-width: 680px) {
+        width: 85%;
+    }
+
+    @media screen and (min-width: 1512px) {
+        width: 70%;
+    }
+
+    @media screen and (min-width: 1921px) {
+        width: 50%;
+    }
+
 }
 
 .navbar {
